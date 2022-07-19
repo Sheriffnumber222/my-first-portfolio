@@ -276,6 +276,15 @@ header {
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+
+    /*Ensure the format works for each portfolio item. I COULD also automate this as well.*/
+    .section__title--sign-up{ 
+        margin-right: calc(var(--fs-body) * 11.5);
+    }
+
+    .section__title--admin{
+        margin-right: var(--fs-body);
+    }
 }
 
 /* My services section */
