@@ -478,6 +478,10 @@ header {
     margin-bottom: 5em;
 }
 
+.portfolio-page-portfolio {
+    max-width: 1200px;
+}
+
 /* Make the code icon bold */
 .fa-code {
     -webkit-text-stroke: .5px black;
