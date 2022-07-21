@@ -285,6 +285,18 @@ header {
     .section__title--admin{
         margin-right: var(--fs-body);
     }
+
+    .section__title--calculator {
+        margin-right: calc(var(--fs-body) * 3);
+    }
+
+    .section__title--etch {
+        margin-right: calc(var(--fs-body) * 9.5)
+    }
+
+    .section__title--landing {
+        margin-right: calc(var(--fs-body) * 5.5)
+    }
 }
 
 /* My services section */
@@ -320,6 +332,7 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    flex: 1;
 }
 
 @media (min-width: 800px) {
@@ -365,12 +378,17 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        align-self: start;
     }
 
     .about-me__img {
         grid-area: img;
         position: relative;
         z-index: 2;
+    }
+
+    .about-me__body {
+        margin-top: -2em;
     }
 
 }
