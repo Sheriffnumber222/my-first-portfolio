@@ -478,7 +478,7 @@ header {
     position: relative;
 }
 
-.fa-user {
+.fa-user { /*This was to create the resume icon without spending money. Might cause problems*/
     position: absolute;
     color: #111;
     left: .15em;
