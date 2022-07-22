@@ -474,6 +474,17 @@ header {
     padding: .5em;
 }
 
+.fa-file {
+    position: relative;
+}
+
+.fa-user {
+    position: absolute;
+    color: #111;
+    left: .15em;
+    top: .175em;
+}
+
 
 /* Individual portfolio item styles */
 
